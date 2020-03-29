@@ -1,0 +1,21 @@
+Task 0 :
+
+Since there is only print statement and not considering the time complexity to read the files. The 
+worst time complexity for the algorithm is __O(1)__, due to the fact that _access_ on a Python array has O(1)
+
+Task 1:
+
+The worst time complexity fo the algorithm is __O(n+m)__, considering the no. of input is n for calls.csv and m for texts.csv and due to the fact that we access sequentially both files for two of their columns.
+
+Task 2:
+
+The worst time complexity for the algorithm is __O(n)__, where n is the no. of input for call.csv and since we are checking the maximum in each iteration, no extra loop is needed for that, thus making the algorithm more efficient. 
+
+Task 3:
+
+The worst time complexity for the algorithm is __O(n log n)__, since it takes O(n) to create a new list of code, by looping through the whole call dataset and to calculate the percentage. Additionaly, it takes O(n log n) to sort the code list, which add up to O(n) + O(n log n). We end up simplying the time to O(n log n)
+
+Task 4:
+
+The worst time complexity for the algorithm is __O(n log n)__. Considering the time taken to create a list of all not telemarketers and then creating a list of telemarketers, by going through the whole database. Additionaly, it takes O(n log n) to sort the telemarketers list, which add up to O(n) + O(n log n). We end up simplying the time to O(n log n).
+
